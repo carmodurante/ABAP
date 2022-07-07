@@ -107,7 +107,7 @@
 		<IconIndex id="19" name="Event"/>
 	</FILTERICONCAPTION>
 	<COLORSYNTAX>
-		<TextType id="8" name="Breakpoint" dstyle="1" dbkclr="0" clr="15923448" bkclr="5592575"/>
+		<TextType id="8" name="Breakpoint" dstyle="1" dbkclr="0" clr="12632256" bkclr="5592575"/>
 		<TextType id="10" name="Changed indicator" dstyle="1" dbkclr="1" clr="5592575"/>
 		<TextType id="11" name="Changed and saved indicator" dstyle="1" dbkclr="1" clr="13007359"/>
 		<TextType id="5" name="Current line" dstyle="1" dbkclr="0" clr="13224393" bkclr="5916484"/>
@@ -120,9 +120,9 @@
 		<TextType id="1" name="Selection margin" dstyle="1" dbkclr="1" clr="5916484"/>
 		<TextType id="21" name="Text highlights" bold="1" italic="0" underline="0" clr="12677119" bkclr="-1"/>
 		<TextType id="22" name="Text highlights error" bold="1" italic="0" underline="0" clr="7125247" bkclr="-1"/>
-		<TextType id="30" name="Normal" dstyle="0" dbkclr="0" bold="0" italic="0" underline="0" clr="13224393" bkclr="2829099"/>
+		<TextType id="30" name="Normal" dstyle="0" dbkclr="0" bold="0" italic="0" underline="0" clr="13816530" bkclr="2829099"/>
 		<TextType id="9" name="Read-only mode" dstyle="1" dbkclr="1" clr="3549736"/>
-		<TextType id="31" name="Comments" dstyle="0" dbkclr="0" text="1" bold="0" italic="1" underline="0" clr="8870990" bkclr="-1">
+		<TextType id="31" name="Comments" dstyle="0" dbkclr="0" text="1" bold="0" italic="0" underline="0" clr="12623485" bkclr="-1">
 			<FirstChar>*</FirstChar>
 			<Conditions>
 				<Condition start="&quot;" end="\n"/>
@@ -579,7 +579,7 @@
 			</Keywords>
 		</TextType>
 		<TextType id="32" name="Numbers" dstyle="0" dbkclr="0" bold="1" italic="0" underline="0" clr="506027" bkclr="-1"/>
-		<TextType id="55" name="Operators" ImageIdx="12" bold="0" italic="0" underline="0" clr="16356285" bkclr="-1">
+		<TextType id="55" name="Operators" ImageIdx="12" bold="1" italic="0" underline="0" clr="16356285" bkclr="-1">
 			<Separators>
 				<Separator text="."/>
 				<Separator text=":"/>
@@ -600,7 +600,7 @@
 			</Conditions>
 		</TextType>
 		<TextType id="40" name="Syntactical error" dstyle="1" dbkclr="0" clr="5592575" bkclr="-1"/>
-		<TextType id="70" name="Token operator" bold="0" italic="0" underline="0" clr="13241175" bkclr="-1">
+		<TextType id="70" name="Token operator" bold="1" italic="0" underline="0" clr="6008319" bkclr="-1">
 			<Separators>
 				<Separator text="-"/>
 				<Separator text="-&gt;"/>
@@ -608,7 +608,7 @@
 				<Separator text="~"/>
 			</Separators>
 		</TextType>
-		<TextType id="20" name="User region" dstyle="0" dbkclr="0" text="0" bold="0" italic="1" underline="0" clr="16356285" bkclr="-1">
+		<TextType id="20" name="User region" dstyle="0" dbkclr="0" text="0" bold="1" italic="1" underline="0" clr="16356285" bkclr="-1">
 			<Conditions>
 				<Condition start="&quot;$." end="\n"/>
 			</Conditions>
